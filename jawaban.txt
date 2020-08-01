@@ -34,4 +34,11 @@
     insert into users values ('','woman');
     insert into users values ('','branded');
 
-4.
+4.a  select id,name,email from users;
+
+  b  select * from items where price > 1000000;
+     select * from items where name like '%watch%';
+
+  c  alter table items add kategori VARCHAR(255);
+
+5.  update items set price=2500000 where name='Sumsang b50';
